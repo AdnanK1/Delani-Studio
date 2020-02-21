@@ -19,6 +19,9 @@ h5{
   text-align: center;
   color: white;
 }
+.contact{
+  background-image: url("../images/backgrounds/c_image.jpg");
+}
 .container{
   text-align:center;
   padding: 30px
