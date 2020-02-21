@@ -21,6 +21,9 @@ h5{
 }
 .contact{
   background-image: url("../images/backgrounds/c_image.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
 }
 .container{
   text-align:center;
@@ -33,4 +36,11 @@ h5{
   border-left: 10px #fff;
   border-right: 10px #fff;
   border-bottom: 10px #fff;
+}
+.mainForm{
+  width: 650px;
+  margin: auto;
+}
+.form input[type = "text"]{
+  width: 750px;
 }
