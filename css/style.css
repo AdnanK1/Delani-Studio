@@ -1,0 +1,78 @@
+.bg{
+  background-image: url("../pics/tree.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.jumbotron{
+  color: #1afe08;
+}
+.background{
+  background-image: url("../pics/promo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2{
+  text-align: center;
+}
+.form{
+  text-align: left;
+  color:  #1afe08;
+}
+.ghanian{
+  color: white;
+  text-align: center;
+}
+.form input[type = "text"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 10px;
+  width: 180px;
+  outline: none;
+  border-radius: 24px;
+  color: white;
+  transition: 0.25s;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.form input[type = "text"]:hover{
+  width:200px;
+}
+.form input[type = "text"]:focus{
+  width: 220px;
+}
+.form input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 40px;
+  outline: none;
+  border-radius: 24px;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.form input[type = "submit"]:hover{
+  background: green;
+  color: black;
+}
+.p{
+  color: green;
+}
+.content{
+  width: 400px;
+  padding: 15px;
+  color: #444;
+  margin: 0 auto;
+  border-style: dashed;
+  position: static;
+  width: 300px;
+  align-items: center;
+}
