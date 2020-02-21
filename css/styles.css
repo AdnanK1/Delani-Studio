@@ -1,6 +1,33 @@
-.header{
-  background-image: url("images/backgrounds/h_img.jpg";);
+#header{
+  background-image: url("../images/backgrounds/h_img.jpg") !important;
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 h1{
   text-align: center;
+  color: white;
+}
+h5{
+  text-align: center;
+}
+.box1{
+  text-align: center;
+}
+.box2{
+  background-image: url("../images/backgrounds/s_image.jpg");
+  text-align: center;
+  color: white;
+}
+.container{
+  text-align:center;
+  padding: 30px
+}
+.row{
+  margin: 10px
+}
+.portfolio{
+  border-left: 10px #fff;
+  border-right: 10px #fff;
+  border-bottom: 10px #fff;
 }
