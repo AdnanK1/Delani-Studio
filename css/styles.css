@@ -1,3 +1,6 @@
 .header{
-  background: url("../images/backgrounds/h_img.jpg")
+  background-image: url("images/backgrounds/h_img.jpg";);
+}
+h1{
+  text-align: center;
 }
