@@ -49,3 +49,12 @@ h5{
 .footer{
   text-align: center;
 }
+#design_hide{
+  display: none;
+}
+#dev_hide{
+  display: none;
+}
+#product_hide{
+  display: none;
+}
