@@ -33,6 +33,7 @@ h5{
   margin: 10px
 }
 .portfolio{
+  text-align: center;
   border-left: 10px #fff;
   border-right: 10px #fff;
   border-bottom: 10px #fff;
