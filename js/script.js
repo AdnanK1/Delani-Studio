@@ -1,23 +1,32 @@
-
 $(document).ready(function(){
   $('#design_show').click(function(event){
-    $('#design_hide').show();
-    $('#design_show').hide();
-  });
-  $('#design_hide').click(function(){
-    $('#design_show').show();
-    $('#design_hide').hide();
-  });
-  $(".mainForm").submit(function(event) {
-    var forms = ["Name","Email","textarea"];
-
-    forms.forEach(function(form) {
-      var userInput = $("input#" + form).val();
-      $("." + form).text(userInput);
+      $('#design_hide').show();
+      $('#design_show').hide();
     });
-
-    $(".dialogbox").show();
-
+    $('#design_hide').click(function(event){
+      $('#design_show').show();
+      $('#design_hide').hide();
+    });
+    $('#dev_show').click(function(event){
+        $('#dev_hide').show();
+        $('#dev_show').hide();
+      });
+      $('#dev_hide').click(function(event){
+        $('#dev_show').show();
+        $('#dev_hide').hide();
+      });
+      $('#product_show').click(function(event){
+          $('#product_hide').show();
+          $('#product_show').hide();
+        });
+        $('#product_hide').click(function(event){
+          $('#product_show').show();
+          $('##product_hide').hide();
+        });
+  $('#submit').click(function(event){
+    var nameInput = $('input#Name').val();
+    $(".Name").text(nameInput);
+    $('.dialogbox').show();
     event.preventDefault();
   });
 });
