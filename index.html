@@ -50,7 +50,7 @@
         </div>
         <div class="col-md-4">
           <div id ="dev_show">
-            <img src="images/services_icons/dev_icon.png" alt="development">
+            <img src="images/services_icons/dev_icon.png" alt="development" id="img2">
             <p>development</p>
           </div>
             <div id ="dev_hide">
@@ -61,7 +61,7 @@
         </div>
         <div class="col-md-4">
           <div id ="product_show">
-            <img src="images/services_icons/product_icon.png" alt="product">
+            <img src="images/services_icons/product_icon.png" alt="product" id="img3">
             <p>product</p>
           </div>
             <div id ="product_hide">
@@ -113,22 +113,19 @@
       <form class="mainForm" action="index.html" method="post">
         <div class="row">
           <div class="col">
-            <div class="form-group">
-                <input type="text" name="Name" placeholder="Name.." class="form-control is-invalid">
-            </div>
+              <input type="text" id ="Name" placeholder="Name.." required>
           </div>
           <div class="col">
-            <div class="form-group">
-                <input type="text" name="Email" placeholder="Email.."class="form-control is-invalid"><br><br>
-            </div>
+              <input type="text" id ="Email" placeholder="Email.." required><br>
           </div>
-
         </div>
-            <textarea name="Message" rows="8" cols="80" class="form-control is-invalid">Your message here... </textarea><br>
-              <input type="submit" name="submit" id="submit"><br><br>
-
-          </form>
-        </div>
+            <textarea name="Message" id="textarea" rows="8" cols="80">Your message here... </textarea><br>
+            <input type="submit" name="submit" id="submit"><br><br>
+      </form>
+              <div class="dialogbox">
+                <p>Thank you <span class="Name"></span> for your response which was well received.</p>
+              </div>
+      </div>
         <div class="container">
           <div class="row">
             <div class="col">
