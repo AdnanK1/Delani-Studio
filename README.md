@@ -1,6 +1,6 @@
 # Portfolio Landing Page
 
-#### By Adnan Kibe
+#### By Adnan Kibe Gitonga
 ## Description
 This project is a web application that is about Delani Studio
 ## Setup/Installation Requirements
