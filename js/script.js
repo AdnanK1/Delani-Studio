@@ -1,9 +1,12 @@
 
 $(document).ready(function(){
-  $('#img1').on('click',function(){
+  $('#design_show').click(function(){
     $('#design_hide').show();
-    $('#img1').hide();
+    $('#design_show').hide();
   });
-
+  $('#design_hide').click(function(){
+    $('#design_show').show();
+    $('#design_hide').hide();
+  });
     event.preventDefault()
 });
