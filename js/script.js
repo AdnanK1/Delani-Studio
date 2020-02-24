@@ -26,8 +26,9 @@ $(document).ready(function(){
     $(this).find('div.display').hide();
   });
   $('.mainform').submit(function(){
-    var name = $('#name').val();
-    var email = $('#email').val();
-    alert('Thank you' +name+ 'for reaching out to us. We do hope for farther interactions with you.');
+    var name = document.getElementById('#name').value();
+    var email = document.getElementById('#email').value();
+   alert();
+    
   });
 });

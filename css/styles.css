@@ -104,3 +104,27 @@ h5{
 .dialogbox {
   display: none;
 }
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+  opacity: .8;
+}
+
+.form-control::-moz-placeholder {
+  color: #fff;
+  opacity: .8;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #fff;
+  opacity: .8;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #fff;
+  opacity: .8;
+}
+
+.form-control::placeholder {
+  color: #fff;
+  opacity: .8;
+}
