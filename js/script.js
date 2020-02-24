@@ -1,32 +1,18 @@
 $(document).ready(function(){
-  $('#design_show').click(function(event){
-      $('#design_hide').show();
-      $('#design_show').hide();
-    });
-    $('#design_hide').click(function(event){
-      $('#design_show').show();
-      $('#design_hide').hide();
-    });
-    $('#dev_show').click(function(event){
-        $('#dev_hide').show();
-        $('#dev_show').hide();
-      });
-      $('#dev_hide').click(function(event){
-        $('#dev_show').show();
-        $('#dev_hide').hide();
-      });
-      $('#product_show').click(function(event){
-          $('#product_hide').show();
-          $('#product_show').hide();
-        });
-        $('#product_hide').click(function(event){
-          $('#product_show').show();
-          $('##product_hide').hide();
-        });
-  $('#submit').click(function(event){
-    var nameInput = $('input#Name').val();
-    $(".Name").text(nameInput);
-    $('.dialogbox').show();
-    event.preventDefault();
+  $(".design").click(function(){
+    $(".design_hide").toggle();
+    $(".design_show").toggle();
+  });
+});
+$(document).ready(function(){
+  $(".dev").click(function(){
+    $(".dev_hide").toggle();
+    $(".dev_show").toggle();
+  });
+});
+$(document).ready(function(){
+  $(".product").click(function(){
+    $(".product_hide").toggle();
+    $(".product_show").toggle();
   });
 });

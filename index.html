@@ -5,8 +5,8 @@
     <title>Delani Studio</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script type="js/JQuery.js"></script>
-    <script type="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>>
   </head>
   <body>
     <div id ="header">
@@ -38,37 +38,47 @@
       <h3>WHAT WE DO</h3><br>
       <div class="row">
         <div class="col-md-4">
-          <div id ="design_show">
-            <img src="images/services_icons/design_icon.png" alt="design" id="img1">
-            <p>design</p>
+          <div class="design">
+            <div class="design-show">
+              <img src="images/services_icons/design_icon.png" alt="design">
+              <p>design</p>
+            </div>
           </div>
-          <div id ="design_hide">
-            <h5>DESIGN</h5>
-            <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
-            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
-          </div>
+            <div class="design">
+              <div class ="design_hide">
+                <h5>DESIGN</h5>
+                <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
+                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
+              </div>
+            </div>
         </div>
         <div class="col-md-4">
-          <div id ="dev_show">
-            <img src="images/services_icons/dev_icon.png" alt="development" id="img2">
+        <div class="dev">
+          <div class="dev_show">
+            <img src="images/services_icons/dev_icon.png" alt="development">
             <p>development</p>
           </div>
-            <div id ="dev_hide">
+        </div>
+        <div class="dev">
+          <div class="dev_hide">
               <h5>DEVELOPMENT</h5>
               <p>All engineers are fluent in the last enterprise,mobile and web development technologies.</p>
               <p>The collaborate with your team to write, and improve code on a daily basis, using practices such as test-driven development and pair programming.</p>
             </div>
+          </div>
         </div>
         <div class="col-md-4">
-          <div id ="product_show">
-            <img src="images/services_icons/product_icon.png" alt="product" id="img3">
-            <p>product</p>
-          </div>
-            <div id ="product_hide">
+          <div class="product">
+            <div class ="product_show">
+              <img src="images/services_icons/product_icon.png" alt="product" class="img3">
+              <p class="img3">product</p>
+            </div>
+            <div class ="product_hide">
               <h5>PRODUCT MANAGEMENT</h5>
               <p>Planning and development is iterative.Because we are constantly coding and testing, the products we build are always ready to go live.</p>
               <p>The iterative process allows for changes as business requirements evolve</p>
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -160,5 +170,6 @@
         <div class="footer">
             <p>DELANI STUDIO <br>2019</p>
         </div>
+
   </body>
 </html>
