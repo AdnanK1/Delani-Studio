@@ -15,4 +15,14 @@ $(document).ready(function(){
     $(".product_hide").toggle();
     $(".product_show").toggle();
   });
+
+  //HOVER
+  $(".portfolio .row .col-md-3").hover(function(){
+    //in
+    $(this).find('div.display').show();
+    
+  },function(){
+    //out
+    $(this).find('div.display').hide();
+  });
 });
