@@ -28,6 +28,9 @@ h5{
 .container{
   text-align:center;
 }
+.portfolio{
+  text-align: center;
+}
 .portfolio .row .col-md-3 {
   padding: 6px;
 }

@@ -25,4 +25,9 @@ $(document).ready(function(){
     //out
     $(this).find('div.display').hide();
   });
+  $('.mainform').submit(function(){
+    var name = $('#name').val();
+    var email = $('#email').val();
+    alert('Thank you' +name+ 'for reaching out to us. We do hope for farther interactions with you.');
+  });
 });
