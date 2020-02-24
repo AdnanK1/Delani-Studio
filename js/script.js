@@ -26,9 +26,18 @@ $(document).ready(function(){
     $(this).find('div.display').hide();
   });
   $('.mainform').submit(function(){
-    var name = document.getElementById('#name').value();
-    var email = document.getElementById('#email').value();
-   alert();
-    
+    let name = $('#name').val();
+    let email = $('#email').val();
+    alert (name,email);
   });
 });
+
+    /*if(name == && email === ''){
+     /* alert('Please the required field');
+    }
+    else{
+      alert('Thanks '+name+ 'for your response');
+    }
+  e.preventDefault();
+    
+  });*/
